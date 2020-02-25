@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b40a9a39-7188-4546-b892-1cd721dfa11b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1Y1VUpkyY3NnVdxg0jIvQRywDHU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b40a9a39-7188-4546-b892-1cd721dfa11b" name="Default Changelist" comment="" />
+      <created>1582110105689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582110105689</updated>
+      <workItem from="1582110107627" duration="883000" />
+      <workItem from="1582114011137" duration="73000" />
+      <workItem from="1582620870426" duration="923000" />
+      <workItem from="1582630322709" duration="1763000" />
+      <workItem from="1582632163164" duration="780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="24" key="SettingsEditor" timestamp="1582630777896">
+      <screen x="65" y="24" width="1295" height="639" />
+    </state>
+    <state x="206" y="24" key="SettingsEditor/65.24.1295.639@65.24.1295.639" timestamp="1582630777896" />
+    <state x="375" y="23" width="672" height="678" key="search.everywhere.popup" timestamp="1582631314409">
+      <screen x="65" y="24" width="1295" height="639" />
+    </state>
+    <state x="375" y="23" width="672" height="678" key="search.everywhere.popup/65.24.1295.639@65.24.1295.639" timestamp="1582631314409" />
   </component>
 </project>
