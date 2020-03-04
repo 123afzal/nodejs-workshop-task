@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Intelligent Investor",
+      "author": "Mark Wahl"
+    },
+    {
+      "id": 2,
+      "title": "Describe Structures",
+      "author": "John Doe"
+    },
+    {
+      "id": 3,
+      "title": "Rules of Learning Arabic",
+      "author": "Sheikh Al-Jabir"
+    },
+    {
+      "id": 4,
+      "title": "Theory of Universe",
+      "author": "Albert Ruffalo"
+    },
+    {
+      "id": 5,
+      "title": "Wireframes Writing",
+      "author": "Colin Labuschagne"
+    },
+    {
+      "id": 6,
+      "title": "Key tp Investment",
+      "author": "Coach Cook"
+    }
+  ]
+}
