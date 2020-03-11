@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b40a9a39-7188-4546-b892-1cd721dfa11b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Task3" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Task3" />
+      <recent name="$PROJECT_DIR$/Task2" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,7 +59,15 @@
       <workItem from="1582114011137" duration="73000" />
       <workItem from="1582620870426" duration="923000" />
       <workItem from="1582630322709" duration="1763000" />
-      <workItem from="1582632163164" duration="780000" />
+      <workItem from="1582632163164" duration="1765000" />
+      <workItem from="1582713080018" duration="1200000" />
+      <workItem from="1582722103808" duration="74000" />
+      <workItem from="1583299104279" duration="1618000" />
+      <workItem from="1583300791604" duration="1773000" />
+      <workItem from="1583302629786" duration="1393000" />
+      <workItem from="1583314279530" duration="1893000" />
+      <workItem from="1583475425405" duration="20000" />
+      <workItem from="1583915820365" duration="68000" />
     </task>
     <servers />
   </component>
@@ -60,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="500" y="89" key="FileChooserDialogImpl" timestamp="1582722175339">
+      <screen x="65" y="24" width="1295" height="639" />
+    </state>
+    <state x="500" y="89" key="FileChooserDialogImpl/65.24.1295.639@65.24.1295.639" timestamp="1582722175339" />
     <state x="206" y="24" key="SettingsEditor" timestamp="1582630777896">
       <screen x="65" y="24" width="1295" height="639" />
     </state>
