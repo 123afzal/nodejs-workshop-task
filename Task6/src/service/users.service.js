@@ -16,7 +16,10 @@ function findOne(name) {
     return repo.findOne(name);
 }
 
-async function insert(user) {
+async function insert(user, file) {
+    if (file) {
+        user.imageUrl = `/user/${file.filename}`
+    }
     return await repo.insert(user)
 }
 

@@ -34,10 +34,11 @@ const users = dbContext.define(
         },
         dob: {
             type: Sequelize.DATEONLY,
-            get: function() {
-                return moment.utc(this.getDataValue('regDate')).format('YYYY-MM-DD');
-            }
-        }
+        },
+        imageurl: {
+            type: Sequelize.STRING,
+            field: 'imageurl' // Will result in an attribute that is firstName when user facing but first_name in the database
+        },
     },
     {
         freezeTableName: true // Model tableName will be the same as the model name

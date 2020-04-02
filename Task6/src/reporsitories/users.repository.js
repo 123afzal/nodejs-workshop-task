@@ -53,6 +53,8 @@ async function findAllUsersWithPermissions() {
         permission: pemissions[0].permission.name
     }
 
+    // we can call view from here as well for getting the desired result
+
     // return dbContext.query("SELECT * FROM user_role_permissions", { type: Sequelize.QueryTypes.SELECT})
     //     .then(users => {
     //         return users
@@ -61,8 +63,17 @@ async function findAllUsersWithPermissions() {
 
 async function insert(user) {
     return dbContext
-        .query('CALL create_user (:name, :id, :role_name)',
-            {replacements: { name: user.name, id: user.role_id, role_name: user.role_name, }})
+        .query('CALL create_user (:name, :id, :role_name, :gender, :dob, :imageUrl)',
+            {
+                replacements: {
+                    name: user.name,
+                    id: user.role_id,
+                    role_name: user.role_name,
+                    gender: user.gender,
+                    dob: user.dob,
+                    imageUrl: user.imageUrl ? user.imageUrl : null
+                }
+            })
         .then((v)=> {
             return 'User created with role successfully'
         })

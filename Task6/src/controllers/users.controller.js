@@ -51,6 +51,7 @@ async function searchRecord(req, res) {
 }
 
 async function createUser(req, res) {
+    req.body.role_id = Number(req.body.role_id);
     const {name, role_id, role_name} = req.body;
     if (!name || typeof name !== 'string')
         return res.status(400).send('name is required and must be of type string');
@@ -58,7 +59,7 @@ async function createUser(req, res) {
         return res.status(400).send('role_id is required and must be of type number');
     if (!role_name || typeof role_name !== 'string')
         return res.status(400).send('role_name is required must be of type number');
-    const record = await service.assignPermissionToRole(req.body);
+    const record = await service.insert(req.body, req.file ? req.file : null);
     res.status(201).send(record);
 }
 
